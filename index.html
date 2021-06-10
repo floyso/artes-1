@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-basic-png.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+    
+  <title>modul&uuml;bersicht.</title>
+</head>
+    
+    
+<body>
+<!------------------------------------------   CONTENT HEADER   ------------------------------------------------>
+    
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-2 offset-1">
+                <img src="img/logo-trans-png.png">
+            </div>
+            <div class="col-8 offset-1">
+                <h1>modul&uuml;bersicht.</h1>
+            </div>
+        </div>
+    </div>
+    
+<!------------------------------------------   NAVIGATION   ------------------------------------------------>
+
+    <nav class="navbar navbar-light navbar-expand-md">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">profil.</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">firma.</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link active">module.</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">abschluss.</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    
+    
+    
+<!------------------------------------------   CONTENT   ------------------------------------------------>
+    
+    <div class="container" id="content">
+        <div class="row">
+            
+        
+<!----------------   Modulkarte 1 inkl. Modal   ---------------------->
+        
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-3 text-white bestande-bg-card">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 1.</h5>
+                        <h6 class="card-subtitle">Sicherungskasten: Check</h6>
+                        <div class="alert alert-success text-center mb-3 mt-3" role="alert">Abgeschlossen</div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary bestande-texts" data-toggle="modal" data-target="#InfoModal1">Info</button>
+                            <button type="button" class="btn btn-primary bestande-texts">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            
+            <!-- Modal Info Karte 1 -->
+            <div class="modal fade" id="InfoModal1" tabindex="-1" role="dialog" aria-labelledby="InfoModal1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">Sicherungskasten: Check</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33491</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 1h</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice 100%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>3 Arbeitstage</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            Den Sicherungskasten zu Prüfen ist der erste Schritt von fast allen Arbeiten an der Hauselektronik. Somit wird in diesem Modul eine der wichtigsten Grundlagen der Ausbildung vermittelt.
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+
+<!----------------   Modulkarte 2 inkl. Modal   ---------------------->
+            
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card mb-3 sm-text-center">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 2.</h5>
+                        <h6 class="card-subtitle">Lampenmontage</h6>
+                        <div class="progress mt-4">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#InfoModal2">Info</button>
+                            <button type="button" class="btn btn-primary">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+    <!-- Modal Info Karte 2 -->
+            <div class="modal fade" id="InfoModal2" tabindex="-1" role="dialog" aria-labelledby="InfoModal2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">Lampenmontage</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33492</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 30min</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice 90%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>3 Arbeitstage</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            Dieses Modul beschäftigt sich mit der Montage aller Arten von Lampen. Zum Ende des Theorieteils sind Ihnen alle möglichen Teilschritte und die Funktionsweisen der Werkzeuge bekannt und das Wissen kann im Anschluss in der Praxis angewendet werden.
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            
+<!----------------   Modulkarte 3 inkl. Modal   ---------------------->
+        
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-3 sm-text-center">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 3.</h5>
+                        <h6 class="card-subtitle">Steckdosen: Austausch</h6>
+                        <div class="alert alert-secondary text-center mb-3 mt-3" role="alert">Nicht Begonnen</div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#InfoModal3">Info</button>
+                            <button type="button" class="btn btn-primary">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <!-- Modal Info Karte 3 -->
+            <div class="modal fade" id="InfoModal3" tabindex="-1" role="dialog" aria-labelledby="InfoModal3" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">Steckdosen: Austausch</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33493</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 30min</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>3 Arbeitstage</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+ 
+            
+<!----------------   Modulkarte 4 inkl. Modal   ---------------------->
+        
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-3 sm-text-center">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 4.</h5>
+                        <h6 class="card-subtitle">TV Kabel: Austausch</h6>
+                        <div class="alert alert-secondary text-center mb-3 mt-3" role="alert">Nicht Begonnen</div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#InfoModal4">Info</button>
+                            <button type="button" class="btn btn-primary">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+    
+            <!-- Modal Info Karte 4 -->
+            <div class="modal fade" id="InfoModal4" tabindex="-1" role="dialog" aria-labelledby="InfoModal4" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">TV Kabel: Austausch</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33494</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 15min</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>1 Arbeitstag</td>
+                                    </tr>
+                                    </tbody>
+                            </table>
+                            <br>
+                            In diesem Modul wird der Austausch der sowohl etablierten TV-Kabel als auch der Umgang mit den gleichen Zweck erfüllenden modernen Technologien behandelt. 
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+
+<!----------------   Modulkarte 5 inkl. Modal   ---------------------->            
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-3 sm-text-center">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 5.</h5>
+                        <h6 class="card-subtitle">Sicherung: Austausch</h6>
+                        <div class="alert alert-secondary text-center mb-3 mt-3" role="alert">Nicht Begonnen</div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#InfoModal5">Info</button>
+                            <button type="button" class="btn btn-primary">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+    
+            <!-- Modal Info Karte 5 -->
+            <div class="modal fade" id="InfoModal5" tabindex="-1" role="dialog" aria-labelledby="InfoModal5" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">Sicherung: Austausch</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33495</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 30min</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>3 Arbeitstage</td>
+                                    </tr>
+                                    </tbody>
+                            </table>
+                            <br>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+<!----------------   Modulkarte 6 inkl. Modal   ---------------------->             
+        
+            <div class="col-md-4 col-sm-6">
+                <div class="card mb-3 sm-text-center">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">modul 6.</h5>
+                        <h6 class="card-subtitle">WLAN-Installation</h6>
+                        <div class="alert alert-secondary text-center mb-3 mt-3" role="alert">Nicht Begonnen</div>
+                        <div class="btn-group btn-block" role="group" >
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#InfoModal6">Info</button>
+                            <button type="button" class="btn btn-primary">Lektionen</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            
+            <!-- Modal Info Karte 6 -->
+            <div class="modal fade" id="InfoModal6" tabindex="-1" role="dialog" aria-labelledby="InfoModal6" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h4 class="modal-title text-muted">WLAN-Installatio</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        
+                        <div class="modal-body mt-3">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+                                        <th>Modul-ID</th>
+                                        <td>HE#33496</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Theorie</th>
+                                        <td>ca. 30min</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Leistungsnachweis</th>
+                                        <td>Multiple Choice</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Dauer Praxis</th>
+                                        <td>3 Arbeitstage</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Schliessen</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+
+            
+            
+
+        </div> <!-- Content Row End -->
+    </div> <!-- Content Container End -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html> 

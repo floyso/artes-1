@@ -1,0 +1,94 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#header div {
+    background-color: #DEDADC;
+}
+
+#header img {
+    height: 7vw;
+}
+
+@media screen and (max-width: 900px) {
+  #header img {
+    height: 12vw;
+  }
+}
+
+#header h1 {
+    font-weight: 800;
+    font-size: 4vw;
+    color: #19406E;
+    margin-top: 7%;
+}
+
+@media screen and (max-width: 900px) {
+  #header h1 {
+    font-size: 6vw;
+  }
+}
+
+nav {
+    background-color: #fff;
+    color: #ECE6DA;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#content .card {
+    margin-top: 30px;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #19406E !important;
+    border-color: #19406E !important;
+}
+
+.btn-primary:hover {
+    background-color: #3D5C79 !important;
+    
+}
+
+.modal-body {
+    font-weight: 300;
+}
+
+.bestande-bg-card {
+    background-color: #8BA8C3;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    text-align: center;
+  }
+}
+
+.progress {
+    margin-bottom: 42px;
+}
+.progress-bar {
+    width: 75%;
+}
+
+
